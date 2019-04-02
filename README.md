@@ -17,26 +17,26 @@ Or can run directly from feature file or can filter tags @UIRegressionPack | @AP
 for UI : @UIRegressionPack
 for API : @APIRegressionPack
 
-#Report :
+# Report :
 
 Report/Failed Screenshots will be  placed by default under \target\cucumber-reports folder
 
 
-#folder structure:
+# folder structure:
 
 under test/resources, feature contains all feature files and stepdefinitions contains all step definition implementations.
 
 under main/java, pageobjects, hooks, utilities
  to handle rest service, constants, pageobject interactions.
  
-#test data
+# test data
 
 For each feature file test data is maintained in separate spreadsheet under specific folders under resource path.
 
 Same code works for different test data combinations as it is keyword and data driven.
 
 
-#Supported browser
+# Supported browser
 
 Used latest Selenium and related drivers, so latest browsers are required to run UI tests.
 
